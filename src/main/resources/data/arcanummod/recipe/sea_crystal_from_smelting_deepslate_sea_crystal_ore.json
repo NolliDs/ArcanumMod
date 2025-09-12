@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "sea_crystal",
+  "ingredient": {
+    "item": "arcanummod:deepslate_sea_crystal_ore"
+  },
+  "result": {
+    "id": "arcanummod:sea_crystal"
+}

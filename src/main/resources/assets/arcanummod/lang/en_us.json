@@ -1,0 +1,12 @@
+{
+  "item.arcanummod.sea_crystal": "Sea Crystal",
+  "item.arcanummod.raw_sea_crystal": "Raw Sea Crystal",
+
+  "block.arcanummod.sea_crystal_block": "Block of Sea Crystal",
+  "block.arcanummod.raw_sea_crystal_block": "Block of Raw Sea Crystal",
+  "block.arcanummod.deepslate_sea_crystal_ore": "Deepslate Sea Crystal Ore",
+  "block.arcanummod.sea_crystal_ore": "Sea Crystal Ore",
+
+  "itemgroup.arcanummod.arcanum_items": "Arcanum Items",
+  "itemgroup.arcanummod.arcanum_blocks": "Arcanum Blocks"
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arcanummod",
+	"version": "${version}",
+	"name": "Arcanum Mod",
+	"description": "Narazienic",
+	"authors": [
+		"Nolli"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/arcanummod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nolli.arcanummod.ArcanumMod"
+		],
+		"fabric-datagen": [
+			"net.nolli.arcanummod.ArcanumModDataGenerator"
+		],
+		"client": [
+			"net.nolli.arcanummod.ArcanumModClient"
+		]
+	},
+	"mixins": [
+		"arcanummod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

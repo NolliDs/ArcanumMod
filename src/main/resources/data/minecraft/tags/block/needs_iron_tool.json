@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "arcanummod:raw_sea_crystal_block",
+    "arcanummod:sea_crystal_block"
+  ]
+}
