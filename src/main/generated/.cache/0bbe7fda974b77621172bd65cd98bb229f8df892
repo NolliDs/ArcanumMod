@@ -1,6 +1,7 @@
-// 1.21.1	2025-10-02T21:09:56.1447128	Arcanum Mod/Tags for minecraft:item
+// 1.21.1	2025-10-03T16:37:45.4856109	Arcanum Mod/Tags for minecraft:item
 17e9d1141e74bcab2e9c8f7e1c390d5e39eb1f45 data\minecraft\tags\item\pickaxes.json
 a38a4066c09140974137c4da12183a9538b8fae2 data\minecraft\tags\item\shovels.json
+d1a8f1d11b38dedc9a439c73eed3e6872d72652f data\minecraft\tags\item\trimmable_armor.json
 c41ad582dab9507a660e9806b1efecf430cf713b data\minecraft\tags\item\axes.json
 5b4a1b1edb0a6635f561cbbc6a1de8311e2e9828 data\minecraft\tags\item\swords.json
 fe7d7ae946c8c0e46a51f4d4d1a0280d2d6b428e data\arcanummod\tags\item\transformable_items.json

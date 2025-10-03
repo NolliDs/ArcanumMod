@@ -33,6 +33,11 @@ public class ModItemGroups {
                         entries.add(ModItems.SEA_CRYSTAL_SHOVEL);
                         entries.add(ModItems.SEA_CRYSTAL_AXE);
                         entries.add(ModItems.SEA_CRYSTAL_HOE);
+
+                        entries.add(ModItems.SEA_CRYSTAL_HELMET);
+                        entries.add(ModItems.SEA_CRYSTAL_CHESTPLATE);
+                        entries.add(ModItems.SEA_CRYSTAL_LEGGINGS);
+                        entries.add(ModItems.SEA_CRYSTAL_BOOTS);
                     }).build());
     public static final ItemGroup ARCANUM_ITEMS_BLOCKS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(ArcanumMod.MOD_ID, "arcanum_blocks"),

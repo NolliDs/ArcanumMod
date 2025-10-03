@@ -3,6 +3,7 @@ package net.nolli.arcanummod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.nolli.arcanummod.block.ModBlocks;
 import net.nolli.arcanummod.block.custom.SeaCrystalLampBlock;
 import net.nolli.arcanummod.item.ModItems;
@@ -58,5 +59,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SEA_CRYSTAL_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SEA_CRYSTAL_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SEA_CRYSTAL_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SEA_CRYSTAL_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SEA_CRYSTAL_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SEA_CRYSTAL_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SEA_CRYSTAL_BOOTS));
     }
 }
