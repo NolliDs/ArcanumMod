@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "arcanummod:sea_crystal"
+    }
+  },
+  "pattern": [
+    " N ",
+    "SOS",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcanummod:netherite_altar"
+  }
+}

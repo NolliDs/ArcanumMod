@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "arcanummod:block/sea_crystal_lamp"
+    },
+    "clicked=true": {
+      "model": "arcanummod:block/sea_crystal_lamp_on"
+    }
+  }
+}

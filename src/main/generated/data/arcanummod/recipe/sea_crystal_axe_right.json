@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "arcanummod:sea_crystal"
+    }
+  },
+  "pattern": [
+    " SS",
+    " PS",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcanummod:sea_crystal_axe"
+  }
+}

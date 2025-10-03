@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arcanummod:netherite_altar"
+    }
+  ],
+  "result": {
+    "count": 32,
+    "id": "arcanummod:raw_sea_crystal"
+  }
+}

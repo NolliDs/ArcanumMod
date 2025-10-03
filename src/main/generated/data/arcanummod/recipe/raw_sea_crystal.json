@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arcanummod:raw_sea_crystal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "arcanummod:raw_sea_crystal"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "sea_crystal",
+  "ingredient": {
+    "item": "arcanummod:sea_crystal_ore"
+  },
+  "result": {
+    "id": "arcanummod:sea_crystal"
+  }
+}

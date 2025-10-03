@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "arcanummod:block/sea_crystal_lamp"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arcanummod:clover",
+          "weight": 998
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanummod:clover_of_fortune",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "values": [
+    "arcanummod:raw_sea_crystal_block",
+    "arcanummod:sea_crystal_block",
+    "arcanummod:sea_crystal_ore",
+    "arcanummod:deepslate_sea_crystal_ore",
+    "arcanummod:netherite_altar",
+    "arcanummod:polished_sea_crystal_block",
+    "arcanummod:polished_sea_crystal_stairs",
+    "arcanummod:polished_sea_crystal_slab",
+    "arcanummod:polished_sea_crystal_button",
+    "arcanummod:polished_sea_crystal_pressure_plate",
+    "arcanummod:polished_sea_crystal_fence",
+    "arcanummod:polished_sea_crystal_fence_gate",
+    "arcanummod:polished_sea_crystal_wall",
+    "arcanummod:polished_sea_crystal_door",
+    "arcanummod:polished_sea_crystal_trapdoor"
+  ]
+}
