@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "arcanummod:block/polished_sea_crystal_block"
+  }
+}

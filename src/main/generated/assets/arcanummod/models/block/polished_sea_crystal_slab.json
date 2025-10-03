@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "arcanummod:block/polished_sea_crystal_block",
+    "side": "arcanummod:block/polished_sea_crystal_block",
+    "top": "arcanummod:block/polished_sea_crystal_block"
+  }
+}

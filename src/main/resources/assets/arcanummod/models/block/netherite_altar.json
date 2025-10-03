@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcanummod:block/netherite_altar_bottom",
+    "up": "arcanummod:block/netherite_altar_top",
+    "north": "arcanummod:block/netherite_altar_side",
+    "south": "arcanummod:block/netherite_altar_side",
+    "east": "arcanummod:block/netherite_altar_side",
+    "west": "arcanummod:block/netherite_altar_side",
+    "particle": "arcanummod:block/netherite_altar_side"
+  }
+}

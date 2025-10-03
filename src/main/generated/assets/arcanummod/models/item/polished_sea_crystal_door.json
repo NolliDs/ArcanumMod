@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arcanummod:item/polished_sea_crystal_door"
+  }
+}

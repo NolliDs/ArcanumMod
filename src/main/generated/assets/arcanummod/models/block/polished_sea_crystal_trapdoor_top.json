@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "arcanummod:block/polished_sea_crystal_trapdoor"
+  }
+}

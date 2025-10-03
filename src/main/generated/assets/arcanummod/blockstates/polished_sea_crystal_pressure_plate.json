@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "arcanummod:block/polished_sea_crystal_pressure_plate"
+    },
+    "powered=true": {
+      "model": "arcanummod:block/polished_sea_crystal_pressure_plate_down"
+    }
+  }
+}

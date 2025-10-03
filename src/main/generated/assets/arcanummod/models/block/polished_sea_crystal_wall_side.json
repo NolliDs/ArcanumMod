@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "arcanummod:block/polished_sea_crystal_block"
+  }
+}

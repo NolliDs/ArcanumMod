@@ -17,8 +17,22 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SEA_CRYSTAL))
                     .displayName(Text.translatable("itemgroup.arcanummod.arcanum_items"))
                     .entries((displayContext, entries) -> {
+
                         entries.add(ModItems.RAW_SEA_CRYSTAL);
                         entries.add(ModItems.SEA_CRYSTAL);
+                        entries.add(ModItems.CLOVER);
+
+                        entries.add(ModItems.SEA_CRYSTAL_BEER);
+
+                        entries.add(ModItems.GOLD_CLOVER);
+                        entries.add(ModItems.NETHERITE_CLOVER);
+                        entries.add(ModItems.CLOVER_OF_FORTUNE);
+
+                        entries.add(ModItems.SEA_CRYSTAL_SWORD);
+                        entries.add(ModItems.SEA_CRYSTAL_PICKAXE);
+                        entries.add(ModItems.SEA_CRYSTAL_SHOVEL);
+                        entries.add(ModItems.SEA_CRYSTAL_AXE);
+                        entries.add(ModItems.SEA_CRYSTAL_HOE);
                     }).build());
     public static final ItemGroup ARCANUM_ITEMS_BLOCKS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(ArcanumMod.MOD_ID, "arcanum_blocks"),
@@ -27,8 +41,23 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.RAW_SEA_CRYSTAL_BLOCK);
                         entries.add(ModBlocks.SEA_CRYSTAL_BLOCK);
+                        entries.add(ModBlocks.POLISHED_SEA_CRYSTAL_BLOCK);
                         entries.add(ModBlocks.DEEPSLATE_SEA_CRYSTAL_ORE);
                         entries.add(ModBlocks.SEA_CRYSTAL_ORE);
+                        entries.add(ModBlocks.WILD_CLOVER);
+
+                        entries.add(ModBlocks.NETHERITE_ALTAR);
+                        entries.add(ModBlocks.SEA_CRYSTAL_LAMP);
+
+                        entries.add(ModBlocks.POLISHED_SEA_CRYSTAL_STAIRS);
+                        entries.add(ModBlocks.POLISHED_SEA_CRYSTAL_SLAB);
+                        entries.add(ModBlocks.POLISHED_SEA_CRYSTAL_BUTTON);
+                        entries.add(ModBlocks.POLISHED_SEA_CRYSTAL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.POLISHED_SEA_CRYSTAL_FENCE);
+                        entries.add(ModBlocks.POLISHED_SEA_CRYSTAL_FENCE_GATE);
+                        entries.add(ModBlocks.POLISHED_SEA_CRYSTAL_WALL);
+                        entries.add(ModBlocks.POLISHED_SEA_CRYSTAL_DOOR);
+                        entries.add(ModBlocks.POLISHED_SEA_CRYSTAL_TRAPDOOR);
                     }).build());
 
     public static void registerItemGroups() {

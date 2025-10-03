@@ -2,7 +2,9 @@ package net.nolli.arcanummod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.nolli.arcanummod.block.ModBlocks;
+import net.nolli.arcanummod.component.ModDataComponentTypes;
 import net.nolli.arcanummod.item.ModItemGroups;
 import net.nolli.arcanummod.item.ModItems;
 import org.slf4j.Logger;
@@ -18,5 +20,9 @@ public class ArcanumMod implements ModInitializer {
 
 		ModItems.registerModItens();
 		ModBlocks.registerModBlocks();
+
+		ModDataComponentTypes.registerDataComponentTypes();
+
+		//FuelRegistry.INSTANCE.add(ModItems.F, 20000); tak sie dodaje przedmiot ktory ma sie palic
 	}
 }

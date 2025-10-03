@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "arcanummod:block/polished_sea_crystal_door_bottom",
+    "top": "arcanummod:block/polished_sea_crystal_door_top"
+  }
+}

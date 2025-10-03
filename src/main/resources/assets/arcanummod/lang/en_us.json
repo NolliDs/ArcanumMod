@@ -1,12 +1,49 @@
 {
   "item.arcanummod.sea_crystal": "Sea Crystal",
   "item.arcanummod.raw_sea_crystal": "Raw Sea Crystal",
+  "item.arcanummod.gold_clover": "Gold Clover",
+  "item.arcanummod.netherite_clover": "Netherite Clover",
+  "item.arcanummod.sea_crystal_beer": "Sea Crystal Beer",
+  "item.arcanummod.clover": "Clover",
+  "item.arcanummod.clover_of_fortune": "Clover Of Fortune",
+
+  "item.arcanummod.sea_crystal_sword": "Sea Crystal Sword",
+  "item.arcanummod.sea_crystal_pickaxe": "Sea Crystal Pickaxe",
+  "item.arcanummod.sea_crystal_shovel": "Sea Crystal Shovel",
+  "item.arcanummod.sea_crystal_axe": "Sea Crystal Axe",
+  "item.arcanummod.sea_crystal_hoe": "Sea Crystal Hoe",
+
+  "item.arcanummod.sea_crystal_helmet": "Sea Crystal Helmet",
+  "item.arcanummod.sea_crystal_chestplate": "Sea Crystal Chestplate",
+  "item.arcanummod.sea_crystal_leggins": "Sea Crystal Leggins",
+  "item.arcanummod.sea_crystal_boots": "Sea Crystal Boots",
 
   "block.arcanummod.sea_crystal_block": "Block of Sea Crystal",
   "block.arcanummod.raw_sea_crystal_block": "Block of Raw Sea Crystal",
+  "block.arcanummod.polished_sea_crystal_block": "Block od Polished Sea Crystal",
   "block.arcanummod.deepslate_sea_crystal_ore": "Deepslate Sea Crystal Ore",
   "block.arcanummod.sea_crystal_ore": "Sea Crystal Ore",
+  "block.arcanummod.netherite_altar": "Netherite Altar",
+  "block.arcanummod.sea_crystal_lamp": "Sea Crystal Lamp",
+  "block.arcanummod.wild_clover": "Wild Clover",
+
+
+  "block.arcanummod.polished_sea_crystal_stairs": "Polished Sea Crystal Stairs",
+  "block.arcanummod.polished_sea_crystal_slab": "Polished Sea Crystal Slab",
+  "block.arcanummod.polished_sea_crystal_button": "Polished Sea Crystal Button",
+  "block.arcanummod.polished_sea_crystal_pressure_plate": "Polished Sea Crystal Pressure Plate",
+  "block.arcanummod.polished_sea_crystal_fence": "Polished Sea Crystal Fence",
+  "block.arcanummod.polished_sea_crystal_fence_gate": "Polished Sea Crystal Fence Gate",
+  "block.arcanummod.polished_sea_crystal_wall": "Polished Sea Crystal Wall",
+  "block.arcanummod.polished_sea_crystal_door": "Polished Sea Crystal Door",
+  "block.arcanummod.polished_sea_crystal_trapdoor": "Polished Sea Crystal Trapdoor",
 
   "itemgroup.arcanummod.arcanum_items": "Arcanum Items",
-  "itemgroup.arcanummod.arcanum_blocks": "Arcanum Blocks"
+  "itemgroup.arcanummod.arcanum_blocks": "Arcanum Blocks",
+
+  "tooltip.arcanummod.netherite_altar": "§bDropping something on it may cause some crazy actions§r",
+  "tooltip.arcanummod.goldclover.tooltip.shift_down": "Press on Stone to turn it into Gold",
+  "tooltip.arcanummod.goldclover": "Press §eShift§r for more Information!",
+  "tooltip.arcanummod.seacrystalbeer": "Better than normal Beer"
+
 }

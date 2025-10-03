@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "arcanummod:block/polished_sea_crystal_slab"
+    },
+    "type=double": {
+      "model": "arcanummod:block/polished_sea_crystal_block"
+    },
+    "type=top": {
+      "model": "arcanummod:block/polished_sea_crystal_slab_top"
+    }
+  }
+}
