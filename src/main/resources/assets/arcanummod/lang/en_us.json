@@ -44,6 +44,9 @@
   "tooltip.arcanummod.netherite_altar": "§bDropping something on it may cause some crazy actions§r",
   "tooltip.arcanummod.goldclover.tooltip.shift_down": "Press on Stone to turn it into Gold",
   "tooltip.arcanummod.goldclover": "Press §eShift§r for more Information!",
-  "tooltip.arcanummod.seacrystalbeer": "Better than normal Beer"
+  "tooltip.arcanummod.seacrystalbeer": "Better than normal Beer",
+
+
+  "effect.arcanummod.soul_drain": "Soul Drain"
 
 }
