@@ -8,10 +8,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.nolli.arcanummod.ArcanumMod;
 import net.minecraft.registry.Registry;
-import net.nolli.arcanummod.item.custom.CloverOfFortune;
-import net.nolli.arcanummod.item.custom.GoldCloverItem;
-import net.nolli.arcanummod.item.custom.NetheriteCloverItem;
-import net.nolli.arcanummod.item.custom.SeaCrystalBeerItem;
+import net.nolli.arcanummod.item.custom.*;
 
 import java.util.List;
 
@@ -51,16 +48,16 @@ public class ModItems {
     //Armor
 
     public static final Item SEA_CRYSTAL_HELMET = registerItem("sea_crystal_helmet",
-            new ArmorItem(ModArmorMaterials.SEA_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.SEA_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(20))));
     public static final Item SEA_CRYSTAL_CHESTPLATE = registerItem("sea_crystal_chestplate",
-            new ArmorItem(ModArmorMaterials.SEA_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.SEA_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(20))));
     public static final Item SEA_CRYSTAL_LEGGINGS = registerItem("sea_crystal_leggings",
-            new ArmorItem(ModArmorMaterials.SEA_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.SEA_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(20))));
     public static final Item SEA_CRYSTAL_BOOTS = registerItem("sea_crystal_boots",
-            new ArmorItem(ModArmorMaterials.SEA_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.SEA_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))));
 
     //Food
