@@ -14,6 +14,7 @@ import net.nolli.arcanummod.ArcanumMod;
 import net.nolli.arcanummod.block.custom.NetheriteAltar;
 import net.nolli.arcanummod.block.custom.SeaCrystalLampBlock;
 import net.nolli.arcanummod.block.custom.WildCloverBlock;
+import net.nolli.arcanummod.sound.ModSounds;
 
 public class ModBlocks {
 
@@ -39,7 +40,7 @@ public class ModBlocks {
 
     //Function Blocks
     public static final Block NETHERITE_ALTAR = registerBlock("netherite_altar",
-            new NetheriteAltar(AbstractBlock.Settings.create().strength(50f, 1200f).requiresTool()));
+            new NetheriteAltar(AbstractBlock.Settings.create().strength(50f, 1200f).requiresTool().sounds(ModSounds.NETHERITE_ALTAR_SOUNDS)));
 
     //Non-Block Blocks
         //Polished Sea Crystal

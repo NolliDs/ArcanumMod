@@ -150,5 +150,37 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', Items.STICK)
                 .criterion(hasItem(ModItems.SEA_CRYSTAL), conditionsFromItem(ModItems.SEA_CRYSTAL))
                 .offerTo(exporter, Identifier.of(ArcanumMod.MOD_ID, getRecipeName(ModItems.SEA_CRYSTAL_HOE) + "_right"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SEA_CRYSTAL_HELMET)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("   ")
+                .input('S', ModItems.SEA_CRYSTAL)
+                .criterion(hasItem(ModItems.SEA_CRYSTAL), conditionsFromItem(ModItems.SEA_CRYSTAL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SEA_CRYSTAL_CHESTPLATE)
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.SEA_CRYSTAL)
+                .criterion(hasItem(ModItems.SEA_CRYSTAL), conditionsFromItem(ModItems.SEA_CRYSTAL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SEA_CRYSTAL_LEGGINGS)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.SEA_CRYSTAL)
+                .criterion(hasItem(ModItems.SEA_CRYSTAL), conditionsFromItem(ModItems.SEA_CRYSTAL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SEA_CRYSTAL_BOOTS)
+                .pattern("   ")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.SEA_CRYSTAL)
+                .criterion(hasItem(ModItems.SEA_CRYSTAL), conditionsFromItem(ModItems.SEA_CRYSTAL))
+                .offerTo(exporter);
     }
 }

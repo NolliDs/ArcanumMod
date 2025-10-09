@@ -1,0 +1,33 @@
+{
+  "netherite_altar_break": {
+    "subtitle": "sounds.arcanummod.netherite_altar_break",
+    "sounds": [
+      "arcanummod:netherite_altar_break"
+    ]
+  },
+  "netherite_altar_step": {
+    "subtitle": "sounds.arcanummod.netherite_altar_step",
+    "sounds": [
+      "arcanummod:netherite_altar_step"
+    ]
+  },
+  "netherite_altar_place": {
+    "subtitle": "sounds.arcanummod.netherite_altar_place",
+    "sounds": [
+      "arcanummod:netherite_altar_palce"
+    ]
+  },
+  "netherite_altar_hit": {
+    "subtitle": "sounds.arcanummod.netherite_altar_hit",
+    "sounds": [
+      "arcanummod:netherite_altar_hit"
+    ]
+  },
+  "netherite_altar_fall": {
+    "subtitle": "sounds.arcanummod.netherite_altar_fall",
+    "sounds": [
+      "arcanummod:netherite_altar_fall"
+    ]
+  }
+}
+

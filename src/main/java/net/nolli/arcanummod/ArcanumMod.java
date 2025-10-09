@@ -9,6 +9,7 @@ import net.nolli.arcanummod.effect.ModEffects;
 import net.nolli.arcanummod.event.SoulDrainKillHandler;
 import net.nolli.arcanummod.item.ModItemGroups;
 import net.nolli.arcanummod.item.ModItems;
+import net.nolli.arcanummod.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -28,6 +29,8 @@ public class ArcanumMod implements ModInitializer {
 		ModEffects.registerEffects();
 
 		SoulDrainKillHandler.register();
+
+		ModSounds.registerSounds();
 		//FuelRegistry.INSTANCE.add(ModItems.F, 20000); tak sie dodaje przedmiot ktory ma sie palic
 	}
 }
