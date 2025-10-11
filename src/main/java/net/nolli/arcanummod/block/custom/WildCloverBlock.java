@@ -51,7 +51,6 @@ public class WildCloverBlock extends PlantBlock {
                 || floor.isOf(Blocks.DIRT)
                 || floor.isOf(Blocks.COARSE_DIRT)
                 || floor.isOf(Blocks.PODZOL)
-                || floor.isOf(Blocks.FARMLAND)
                 || floor.isOf(Blocks.MOSS_BLOCK);
     }
 }
